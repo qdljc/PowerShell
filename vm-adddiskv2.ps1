@@ -84,40 +84,40 @@ If ( $PSCmdlet.ParameterSetName -eq "Filename") {
 
 $vcsm = @() 
     $item = New-Object PSObject
-    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'cshj'
-    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '103.160.174.131'
-    $item | Add-Member -type NoteProperty -Name 'username' -Value 'cshj\lujc'
-    $item | Add-Member -type NoteProperty -Name 'password' -Value '123.com'
+    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'vc1'
+    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '1.1.1.1'
+    $item | Add-Member -type NoteProperty -Name 'username' -Value '1'
+    $item | Add-Member -type NoteProperty -Name 'password' -Value '1'
     $vcsm += $item
     Remove-Variable item ; $item = New-Object PSObject
-    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'zj'
-    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '102.200.135.100'
-    $item | Add-Member -type NoteProperty -Name 'username' -Value 'vm\lujc'
-    $item | Add-Member -type NoteProperty -Name 'password' -Value '12345.com'
+    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'vc2'
+    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '2.2.2.2'
+    $item | Add-Member -type NoteProperty -Name 'username' -Value '2'
+    $item | Add-Member -type NoteProperty -Name 'password' -Value '2'
     $vcsm += $item
     Remove-Variable item ; $item = New-Object PSObject
-    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'dmz'
-    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '192.168.252.153'
-    $item | Add-Member -type NoteProperty -Name 'username' -Value 'vmdmz\lujc'
-    $item | Add-Member -type NoteProperty -Name 'password' -Value '12345.com'
+    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'vc3'
+    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '3.3.3.3'
+    $item | Add-Member -type NoteProperty -Name 'username' -Value '3'
+    $item | Add-Member -type NoteProperty -Name 'password' -Value '3'
     $vcsm += $item
     Remove-Variable item ; $item = New-Object PSObject
-    $item | Add-Member -type NoteProperty -Name 'VC' -Value '736'
-    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '103.160.174.131'
-    $item | Add-Member -type NoteProperty -Name 'username' -Value 'lujc@vsphere.local'
-    $item | Add-Member -type NoteProperty -Name 'password' -Value '12345.com'
+    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'vc4'
+    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '4.4.4.4'
+    $item | Add-Member -type NoteProperty -Name 'username' -Value '4'
+    $item | Add-Member -type NoteProperty -Name 'password' -Value '4'
     $vcsm += $item
     Remove-Variable item ; $item = New-Object PSObject
-    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'zsc'
-    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '108.199.32.44'
-    $item | Add-Member -type NoteProperty -Name 'username' -Value 'lujc@vsphere.local'
-    $item | Add-Member -type NoteProperty -Name 'password' -Value '12345.com'
+    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'vc5'
+    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '5.5.5.5'
+    $item | Add-Member -type NoteProperty -Name 'username' -Value '5'
+    $item | Add-Member -type NoteProperty -Name 'password' -Value '5'
     $vcsm += $item
     Remove-Variable item ; $item = New-Object PSObject
-    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'db'
-    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value ''
-    $item | Add-Member -type NoteProperty -Name 'username' -Value 'lujc@vsphere.local'
-    $item | Add-Member -type NoteProperty -Name 'password' -Value '12345.com'
+    $item | Add-Member -type NoteProperty -Name 'VC' -Value 'vc6'
+    $item | Add-Member -type NoteProperty -Name 'ipaddr' -Value '6.6.6.6'
+    $item | Add-Member -type NoteProperty -Name 'username' -Value '6'
+    $item | Add-Member -type NoteProperty -Name 'password' -Value '6'
     $vcsm += $item
     Remove-Variable item
 
